@@ -90,6 +90,16 @@ button {
     padding: 5px 30px;
 }
 
+#studentList>.list-item>h1 {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+#studentList>.list-item>p {
+    padding-bottom: 3px;
+}
+
 div>button:hover {
     background-color: rgb(2, 186, 2);
     transition-delay: 100ms;
@@ -106,6 +116,7 @@ article>button:hover {
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
 }
+
 
 /* Mobile pixel */
 @media(width <=440px) {
